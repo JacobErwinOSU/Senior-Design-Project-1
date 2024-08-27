@@ -4,12 +4,12 @@
 A 4-bit successive approximation A to D converter was designed for this project
 
 Major elements include:
-• Sample/hold amplifier (S/H)
-• D/A converter
-• Comparator (Schmitt trigger recommended)
-• Storage register
-• Clock
-• Control and sequencing logic
+* Sample/hold amplifier (S/H)
+* D/A converter
+* Comparator (Schmitt trigger recommended)
+* Storage register
+* Clock
+* Control and sequencing logic
 
 (1)Initiate a conversion sequence on
 command
