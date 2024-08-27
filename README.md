@@ -1,4 +1,5 @@
-# ECEN-4013-Design-of-Eng-Systems-Fa24 Senior Design Project 1 Group 1
+# ECEN-4013-Design-of-Eng-Systems-Fa24 Senior Design Project 1
+# Group 1
 ## Authors: Brent Bertaux, Jacob Erwin, Katilynn Mar, Johnny Williamson
 
 A 4-bit successive approximation A to D converter was designed for this project 
