@@ -1,0 +1,19 @@
+all: adc_program
+
+adc_program: main.o gpio_setup.o sar_algorithm.o
+    g++ -o adc_program main.o gpio_setup.o sar_algorithm.o clock.o -lwiringPi
+
+main.o: main.cpp
+    g++ -c main.cpp
+
+gpio_setup.o: gpio_setup.cpp
+    g++ -c gpio_setup.cpp
+
+sar_algorithm.o: sar_algorithm.cpp
+    g++ -c sar_algorithm.cpp
+
+clock.o: clock.cpp
+    g++ -c clock.cpp
+
+clean:
+    rm -f *.o adc_program
